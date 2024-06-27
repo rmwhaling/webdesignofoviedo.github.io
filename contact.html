@@ -5,82 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css/main.css">
+    <link rel="icon" type="image/x-icon" href="/images/rooster red.ico">
 </head>
 <body>
     
-    <header class="header">
-        <div class="header-content">
-            <a href="#" class="logo">Web Design of Oviedo</a>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="hamburger">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-            <a href="#website-pricing"><button class="hero-button">Website Pricing</button></a>
+    
+  <header class="header">
+    <div class="header-content">
+        <a href="index.html" class="logo">Web Design of Oviedo</a>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
-    </header>
-            <!-- 
+        <a href="#website-pricing"><button class="hero-button">Website Pricing</button></a>
+    </div>
+</header>
+        <!-- 
     This is a working contact form. To receive email, 
     Replace YOUR_ACCESS_KEY_HERE with your actual Access Key.
 
     Create Access Key here 👉 https://web3forms.com/
  -->
-
+<div class="contact-container">
 <section class="contact-section">
-    <div class="contact-intro">
-      <h2 class="contact-title">Get in Touch</h2>
-      <p class="contact-description">
-        Fill out the form below and we'll get back to you as soon as possible.
-      </p>
-    </div>
-  
-    <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
-  
-      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
-      <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
-      <input type="hidden" name="from_name" value="My Website" />
-      <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
-  
-      <div class="form-group-container">
-        <div class="form-group">
-          <label for="name" class="form-label">Name</label>
-          <input id="name" name="name" class="form-input" placeholder="Your name" type="text" />
-        </div>
-        <div class="form-group">
-          <label for="email" class="form-label">Email</label>
-          <input id="email" name="email" class="form-input" placeholder="Your email" type="email" />
-        </div>
-        <div class="form-group">
-          <label for="phone" class="form-label">Phone</label>
-          <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
-        </div>
-        <div class="form-group">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
-        </div>
+  <div class="contact-intro">
+    <h2 class="contact-title">Contact Us</h2>
+    <p class="contact-description">
+      Use the form to get in touch so we can begin the journey of getting your business a proper, effective website for your business or organization. If you’re still unsure if you want to make the next big step for your business you can also use the form to ask questions or note any concerns you may have.
+      <br>
+      <br>
+      Looking for pricing? There’s no need for that “contact to get a quote” nonsense. Check out the pricing of your website here!
+    </p>
+  </div>
+
+  <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+    <input type="hidden" name="subject" value="New Contact Form Submission from Web3Forms" />
+    <input type="hidden" name="from_name" value="My Website" />
+    <!-- More custom ization options available in the docs: https://docs.web3forms.com -->
+
+    <div class="form-group-container">
+      <div class="form-group">
+        <label for="name" class="form-label contact-required">Name</label>
+        <input id="name" name="name" class="form-input" placeholder="Name" type="text" />
       </div>
-      <button class="form-submit" type="submit">Send Message</button>
-    </form>
-  
-  </section>
-        
-        <!-- <div class="contact-right">
-            <img src="images/mail.svg" alt="" width="300" height="300">
-        </div> -->
-        
+      <div class="form-group">
+        <label for="email" class="form-label contact-required">Email</label>
+        <input id="email" name="email" class="form-input" placeholder="Email" type="email" />
+      </div>
+      <div class="form-group">
+        <label for="phone" class="form-label">Phone</label>
+        <input id="phone" name="phone" class="form-input" placeholder="+1 (234) 56789" type="text" />
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label contact-required">Message</label>
+        <textarea class="form-textarea" id="message" name="message" placeholder="Talk about your project.  Any requirements, ideas, goals, or examples to get the discussion started."></textarea>
+      </div>
+    </div>
+    <button class="form-submit" type="submit">Send Message (We'll reply back!)</button>
+  </form>
+
+</section>
+<img src="images/mail.svg" width="300" height="300" alt="">
+</div>   
     
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <footer>
