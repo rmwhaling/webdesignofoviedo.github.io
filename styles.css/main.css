@@ -982,6 +982,10 @@ color: var(--TEXTCOLORWHITE);
     padding: 3rem;
   }
 
+  .about-right {
+    display: none;
+  }
+
   .contact-container {
     padding: 3rem;
   }
