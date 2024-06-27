@@ -973,9 +973,6 @@ color: var(--TEXTCOLORWHITE);
     padding: 0;
     justify-content: space-around;
   }
-  .contact-right {
-    display: none;
-  }
 
   .hero-button {
     display: none;
@@ -987,5 +984,9 @@ color: var(--TEXTCOLORWHITE);
 
   .contact-container {
     padding: 3rem;
+  }
+
+  .contact-container img {
+    display: none;
   }
 }
