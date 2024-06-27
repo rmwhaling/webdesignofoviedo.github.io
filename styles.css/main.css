@@ -967,11 +967,6 @@ color: var(--TEXTCOLORWHITE);
 
 @media (max-width: 600px) {
 
-  /* .header {
-    padding: 0;
-  } */
-/* 
-   */
 
 
   .about-container {
@@ -982,21 +977,15 @@ color: var(--TEXTCOLORWHITE);
     display: none;
   }
 
-  /* .contact-container {
-    padding: 0;
-    margin: 0;
-
-  } */
-
 .contact-section {
     padding: 0;
     margin: 0;
-    flex-direction: column;
+    width: 75%;
   }
 
   .contact-container {
     display: flex;
-    padding: 3rem;
+    padding: 3rem 0;
     background-color: var(--BGCOLORGRAY);
     color: var(--TEXTCOLORPEWTER);
   }
