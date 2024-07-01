@@ -374,6 +374,10 @@ body  {
   color: var(--ACCENTCOLORPEWTER);
 }
 
+.pricing-heading-price {
+  display: none;
+}
+
 .get-started-button {
   background-color: #0add08;
   padding: 1rem 2rem;
@@ -856,5 +860,11 @@ color: var(--TEXTCOLORWHITE);
   .pricing-left {
     width: 100%;
   }
+
+  .pricing-heading-price {
+    display: block;
+    /* text-align: center; */
+  }
+  
 
 }
