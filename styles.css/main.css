@@ -121,45 +121,6 @@ body  {
   min-height: 100vh;
 }
 
-/* HEADER STYLING */
-/* 
-.header {
-  padding: 1rem 3rem;
-}
-
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 5rem;
-}
-
-.header-nav h3 {
-  color: var(--TEXTCOLORRED);
-}
-
-.header-ul {
-  display: flex;
-  list-style-type: none;
-  gap: 3rem;
-}
-
-.header-ul a {
-  color: var(--TEXTCOLORPEWTER);
-}
-
-.header-button {
-
-  background-color: #2cff05;
-  background-color: #0add08;
-  padding: 1rem 2rem;
-  border: none;
-  color: var(--TEXTCOLORPEWTER);
-  cursor: pointer;
-  border-radius: 5px;
-  transition: all .4s ease;  
-}
-
 
 /* HEADER STYLING */
 
@@ -222,9 +183,8 @@ body  {
 .hamburger--open .bar:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
 }
-.header-button {
 
-  background-color: #2cff05;
+.header-button {
   background-color: #0add08;
   padding: 1rem 2rem;
   border: none;
@@ -267,8 +227,6 @@ body  {
 }
 
 .hero-button {
-
-  background-color: #2cff05;
   background-color: #0add08;
   padding: 1rem 2rem;
   border: none;
@@ -367,48 +325,74 @@ body  {
 
 /* PRICING PAGE */
 
-.pricing {
-  /* display: flex; */
+.pricing-container {
+  display: flex;
+  
   padding: 5rem 10rem;
-  justify-content: center;
+  justify-content: space-around;
   background-color: var(--BGCOLORGRAY);
   color: var(--TEXTCOLORPEWTER);
 }
 
-.pricing-header {
+.pricing-heading {
   color: var(--TEXTCOLORRED);
-  margin-bottom: 5rem;
   font-size: 2rem;
   padding-bottom: .25rem;
 }
 
 
-/* ABOUT PAGE */
-
-.about {
-  display: flex;
-  padding: 5rem 10rem;
-  justify-content: center;
-  background-color: var(--BGCOLORGRAY);
-  color: var(--TEXTCOLORPEWTER);
+.pricing-left h3 {
+  margin-bottom: .5rem;
 }
-
-
-.about-left {
-  width: 50ch;
-  /* line-height: 1.25rem; */
-}
-
-.about-left h3 {
+.pricing-right h3 {
   margin-bottom: .5rem;
 }
 
-.about-heading {
+.pricing-price {
   color: var(--TEXTCOLORRED);
-  margin-bottom: 5rem;
   font-size: 2rem;
-  padding-bottom: .25rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  
 }
+
+
+.pricing-left {
+  width: 50ch;
+}
+
+.pricing-left li {
+  list-style-position: inside;
+  margin-bottom: .5rem;
+}
+
+.pricing-left ul {
+  padding: .5rem 0;
+}
+
+.pricing-span {
+  color: var(--ACCENTCOLORPEWTER);
+}
+
+.get-started-button {
+  background-color: #0add08;
+  padding: 1rem 2rem;
+  border: none;
+  color: var(--TEXTCOLORPEWTER);
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all .4s ease;  
+}
+
+.get-started-button:hover {
+  background-color: var(--BGCOLORRED);
+  color: var(--TEXTCOLORWHITE);
+}
+
+
+  
+
+/* ABOUT PAGE */
 
 .about-container {
   display: flex;
@@ -418,13 +402,20 @@ body  {
   color: var(--TEXTCOLORPEWTER);
 }
 
+
 .about-left {
   width: 50ch;
 }
 
-
 .about-left h3 {
   margin-bottom: .5rem;
+}
+
+.about-heading {
+  color: var(--TEXTCOLORRED);
+  /* margin-bottom: 5rem; */
+  font-size: 2rem;
+  padding-bottom: .25rem;
 }
 
 .about-left p {
@@ -453,11 +444,11 @@ body  {
   background-color: var(--BGCOLORGRAY);
   padding: 5rem 10rem;
   justify-content: space-around;
-  gap: 3rem;
 }
 
+
 .contact-section {
-  width: 50%;
+  width: 50ch;
 }
 
 .contact-intro > * + * {
@@ -470,6 +461,7 @@ body  {
   font-weight: 700;
   color: var(--TEXTCOLORRED);
 }
+
 
 .contact-description {
   color: var(--TEXTCOLORPEWTER);
@@ -851,4 +843,18 @@ color: var(--TEXTCOLORWHITE);
   .contact-container img {
     display: none;
   }
+
+  .pricing-right {
+    display: none;
+  }
+
+  .pricing-container {
+    flex-direction: column;
+    padding: 3rem;
+  }
+
+  .pricing-left {
+    width: 100%;
+  }
+
 }
