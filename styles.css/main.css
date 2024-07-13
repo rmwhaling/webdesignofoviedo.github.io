@@ -345,6 +345,7 @@ body  {
   color: var(--TEXTCOLORRED);
   font-size: 2rem;
   padding-bottom: .25rem;
+  /* text-align: center; */
 }
 
 
@@ -356,10 +357,10 @@ body  {
 }
 
 .pricing-price {
-  color: var(--TEXTCOLORRED);
-  font-size: 2rem;
-  padding-bottom: 3rem;
-  text-align: center;
+  color: var(--TEXTCOLORPEWTER);
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+  /* text-align: center; */
   
 }
 
