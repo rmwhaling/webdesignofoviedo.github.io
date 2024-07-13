@@ -146,9 +146,6 @@ body  {
   color: var(--TEXTCOLORRED);
 }
 
-.home-button-mobile {
-  display: none;
-}
 
 .nav {
   transition: all .3s ease-in-out;
@@ -707,16 +704,6 @@ footer {
   .header-button {
     display: none;
   }
-
-  
-.logo {
-  color: var(--TEXTCOLORRED);
-  display: none;
-}
-
-.home-button-mobile {
-  display: block;
-}
 
 }
 
