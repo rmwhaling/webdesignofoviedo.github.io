@@ -206,6 +206,12 @@ body  {
   color: var(--TEXTCOLORWHITE);
 }
 
+.contact-phone {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
 
 /* HERO SECTION STYLING */
 
@@ -702,6 +708,10 @@ footer {
   }
 
   .header-button {
+    display: none;
+  }
+
+  .contact-phone {
     display: none;
   }
 
