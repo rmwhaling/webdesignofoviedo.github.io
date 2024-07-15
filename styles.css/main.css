@@ -671,7 +671,12 @@ footer {
 } */
 
 @media (max-width: 650px) {
-
+  
+  .header {
+    /* width: 100%;
+    top: 0; */
+    height: auto;
+  }
   .header-content {
     padding: 0;
     justify-content: space-evenly;
