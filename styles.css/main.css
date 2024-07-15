@@ -132,6 +132,7 @@ body  {
  
   width: 100%;
   top: 0;
+  height: 15vh;
 }
 
 .header-content {
@@ -208,8 +209,10 @@ body  {
 
 .contact-phone {
   display: flex;
+  align-items: center;
   gap: 1rem;
-  padding: 1rem 2rem;
+  height: 50.67px;
+  width: 183.74px;
 }
 
 
@@ -385,14 +388,14 @@ body  {
   padding: .5rem 0;
 }
 
-.pricing-span {
-  color: var(--ACCENTCOLORPEWTER);
-}
-
 .pricing-heading-price {
   display: none;
 }
 
+.each-span {
+  vertical-align: 10%;
+  margin-left: .1rem;
+}
 
   
 
