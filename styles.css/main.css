@@ -265,7 +265,6 @@ body  {
 
 .no-frills {
   font-size: 5rem;
-  /* color: var(--TEXTCOLORPEWTER); */
 }
 
 /* OUR WEBSITES SECTION */
@@ -742,7 +741,7 @@ footer {
     background-color: var(--BGCOLORGRAY);
     color: var(--TEXTCOLORPEWTER);
     height: auto;
-    padding: 3rem;
+    padding: 1rem 3rem;
     justify-content: center;
     /* gap: 5rem; */
 }
@@ -750,6 +749,10 @@ footer {
 .hero-section h1 {
   font-size: 3rem;
   color: var(--TEXTCOLORRED);
+}
+
+.no-frills {
+  font-size: 3rem;
 }
 
 .hero-left p {
