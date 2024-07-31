@@ -187,9 +187,9 @@ body  {
   transition: all .4s ease; 
 }
 
-/* .hamburger {
+.hamburger {
   display: none;
-} */
+}
 
 .hamburger-menu {
   display: none;
@@ -804,10 +804,10 @@ footer {
     color: var(--TEXTCOLORWHITE);
   }
 
-  /* .hamburger {
+  .hamburger {
     display: block;
     cursor: pointer;
-  } */
+  }
 
   .hamburger-menu {
     display: block;
